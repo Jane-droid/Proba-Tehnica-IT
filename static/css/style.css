@@ -54,17 +54,17 @@ background: #92E3A9;
 }
 .text-content-number{
   
-width: 229px;
-height: 114px;
+    width: 100%;
+    height: 114px;
 
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #263238;
+    color: #263238;
 }
 .move-down{
     margin-top:50px;
@@ -74,11 +74,7 @@ color: #263238;
 }
 
 .formular{
-   
-
-  
-
-    margin-top: 10%;
+     margin-top: 40%;
     align-content: center;
     position: relative;
 
@@ -88,8 +84,9 @@ color: #263238;
     border-radius: 5px;
 }
 .titlu-text-down{
-    
-width: 341px;
+    width: 100%;
+    margin-bottom: 38px;
+
 height: 118px;
 
 
@@ -102,6 +99,22 @@ line-height: 121.1%;
 
 
 color: #263238;
+}
+
+.modal-title {
+    /* position: absolute; */
+    width: 418px;
+    height: 27px;
+    /* left: 36px; */
+    /* top: 14px; */
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+    line-height: 1.42857143;
 }
 
 .titlu-text-desc{
@@ -123,7 +136,7 @@ color: #263238;
 }
 .content-card{
 
-    padding: 72px;
+   /* padding: 72px;*/
 }
 
 footer.page-footer.font-small.blue.pt-4 {
@@ -158,7 +171,7 @@ color: #FFFFFF;
 
 textarea#exampleFormControlTextarea1 {
     /* position: absolute; */
-    width: 350px;
+    width: 66%;
     height: 82px;
     left: 765px;
     /* top: 1636px; */
@@ -169,8 +182,9 @@ textarea#exampleFormControlTextarea1 {
 
 input#email {
     /* position: absolute; */
-    width: 350px;
+  
     height: 40px;
+    width: 66%;
     left: 765px;
     /* top: 1546px; */
     border: 1px solid #263238;
@@ -237,293 +251,126 @@ a.button.btn.btn-default.btn-trimite {
 }
 .form-show-class{
     position: relative;
-    left: 100px;
+
 }
 
 .row.move-down {
     background: #92E3A9;
 }
+body{
 
- .exprima {
     width: 100%;
-    height: 2%;
-    left: -2%;
-    top: 50%;
+}
+
+.modal-header {
+    background: #92E3A9;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+    background-color: black !important;
+    color: aliceblue;
+    border-radius: 93%;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 6px;
+}
+
+select#sel1 {
+    /* position: absolute; */
+    width: 66%;
+    height: 41px;
+    /* left: 48.88px; */
+    top: 95px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A8A8A8;
+}
+
+.content-div {
+    width: 92%;
+    margin-left: 19%;
+}
+.btn-incarca {
+    margin-left: 20%;
+}
+.input-titlu{
+   
+    height: 40px;
+    width: 66%;
+    left: 765px;
+    /* top: 1546px; */
+    border: 1px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.plangeri-show {
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-  }
+    /* position: absolute; */
+    /* width: 488px; */
+    height: 49px;
+    left: -2px;
+    margin-left: -15px;
+    top: 290px;
+    width: 105.4%;
+    background: #92E3A9;
+    margin-top: 18px;
+}
+.plangeri_introduse {
+    position: relative;
+    text-align: left;
+    top: 10px;
+    left: 10px;
+}
 
-  .modal-header {
+ul.items-list {
+    list-style-type: none;
+    margin-top: 14px;
+}
+.tetris{
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #263238;
+}
+
+li.item_name_desc {
+    margin-top: 12;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+     border-color:white; 
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin-left: 17px;
+    margin-top: 23px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
+    background-color: #333;
+}
+.img-top-women{
     width: 100%;
-    height: 2%;
-    left: 0%;
-    top: 0%;
-    background: #92e3a9;
-  }
+}
 
- .modal-body {
+select#sel1_top {
+    width: 66% !important;
+}
+
+.imagine-femeie {
     width: 100%;
-    height: 90%;
-    left: 0%;
-    top: 0%;
-    background: #FFFFFF;
-  }
-
-.modal-footer {
-    width: 100%;
-    height: 20%;
-    left: 0%;
-    top: 0%;
-    background: #FFFFFF;
-  }
-
-  .rectangle15 {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: 0%;
-    top: 50%;
-    background: #92e3a9;
-  }
-
- .plangeri {
-    position: absolute;
-    width: 100%;
-    height: 2%;
-    left: -20%;
-    top: 50%;
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #000000;
-  }
-
-  .rectangle17 {
-    position: absolute;
-    width: 23%;
-    height: 8%;
-    left: 35%;
-    top: 33%;
-    background: #263238;
-    border-radius: 8%;
-  }
-
-  .incarca {
-    position: absolute;
-    width: 100%;
-    height: 2%;
-    left: 0%;
-    top: 50%;
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    text-align: center;
-    color: #92e3a9;
-  }
-
-  .tetris {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -39%;
-    top: 65%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: black;
-  }
-
-  .EGC {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -38.5%;
-    top: 68%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #92e3a9;
-  }
-
-  .bani {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -22.5%;
-    top: 72%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #263238;
-  }
-
-  .scoala {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -33%;
-    top: 74.7%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #92e3a9;
-  }
-
-  .probleme {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -16%;
-    top: 78.5%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #263238;
-  }
-
-  .mate1 {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -36.5%;
-    top: 81.5%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #92e3a9;
-  }
-
-  .editor {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -30%;
-    top: 85%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #263238;
-  }
-
-  .PC {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -39.5%;
-    top: 88%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #92e3a9;
-  }
-
-  .detector {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -28.5%;
-    top: 92%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #263238;
-  }
-
-  .licenta {
-    position: absolute;
-    width: 100%;
-    height: 3%;
-    left: -36.5%;
-    top: 94.8%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120%;
-    line-height: 2%;
-    color: #92e3a9;
-  }
-
-.dropbtn {
-    position: absolute;
-    background-color: black;
-    color: white;
-    padding: 1%;
-    font-size: 120%;
-    border: none;
-    cursor: pointer;
-    left: 18%;
-    right: 1%;
-    top: -25%;
-    bottom: 1%;
-  }
-
-  .dropbtn:hover,
-  .dropbtn:focus {
-    background-color: #2980b9;
-  }
-
-  select {
-    appearance: none;
-    outline: 0;
-    background: white;
-    background-image: none;
-    width: 100%;
-    height: 100%;
-    color: black;
-    cursor: pointer;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-  .select {
-    position: absolute;
-    display: block;
-    width: 87%;
-    height: 6%;
-    top: 12%;
-    left: 6.5%;
-    line-height: 2;
-    text-align: center;
-    overflow: hidden;
-  }
-
-  input[type="text"] {
-    position: absolute;
-    width: 87%;
-    padding: 12px 20px;
-    margin: 8px;
-    height: 6%;
-    top: 20%;
-    left: 5%;
-    border: 1px solid #263238;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-
+}
